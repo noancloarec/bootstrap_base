@@ -1,0 +1,9 @@
+.cache/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.local/
+.npm/
+mnist.zip
+mnist/
+.config

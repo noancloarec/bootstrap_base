@@ -1,0 +1,8 @@
+services:
+  jupyter-lab:
+    image: quay.io/jupyter/datascience-notebook:2024-02-24
+    volumes:
+    - .:/home/jovyan/
+    ports:
+    - 8888:8888
+    command: jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password=''
